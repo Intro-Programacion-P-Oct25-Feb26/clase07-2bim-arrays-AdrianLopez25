@@ -49,7 +49,7 @@ public class ArrayList021 {
         while (bandera) {
             System.out.println("Ingrese un nombre de un país");
             pais = entrada.nextLine(); // Ecuador / ecuador / ECuador
-            pais = convertirMayusculas(pais);
+            pais = convertirMinusculas(pais);
             arreglo2.add(pais);
             System.out.println("Desea ingresar salir, ingrese (s)");
             opcion = entrada.nextLine();
@@ -75,6 +75,9 @@ public class ArrayList021 {
         }
         return cadenaFinal;
     }    
-        
+        public static String convertirMinusculas(String c){
+        String miValor = c.toLowerCase();
+        return miValor;
+    }
     
 }

@@ -11,6 +11,9 @@ package paquete03;
 public class Pedido {
 
     public static int[][] obtenerPedidos() {
+        /* Aqui se declara un arreglo bidimensional de tipo entero en donde se 
+        le va a dar todo los valores en pedidosCafeteria ademas que se va a retornar
+        */
 
         int[][] pedidosCafeterias = {
             {120, 130, 125, 140, 135, 150, 145},

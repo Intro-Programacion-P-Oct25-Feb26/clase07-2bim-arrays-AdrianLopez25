@@ -12,6 +12,10 @@ import paquete04.Operacion;
 public class Informe {
     
     public static int obtenerTotalDia(int [][] pedidos, int dia){
+        /*
+        En esta funcion lo que realiza es que aqui hace la suma de todos los pedidos
+        pero por cada dia.
+        */
         
         int suma = 0;
         for (int i = 0; i < pedidos.length; i++) {
@@ -21,6 +25,10 @@ public class Informe {
     }
     
     public static String obtenerCafeteriaMasPedidos(int [][] pedidos, String[] cafeterias){
+        /*
+        En esta funcion lo que hace es que se le dan los valor de los pedidos de 
+        manera semanal.
+        */
         
         int [] sumaSemanal = Operacion.obtenerSumaSemanal(pedidos);
         
@@ -40,6 +48,9 @@ public class Informe {
     }
     
     public static int [] obtenerMenorPedidoCafeteria(int [][] pedidos){
+        /*
+        En esta funciones se obtiene lo que es el numero menor de pedidos 
+        */
         int [] pedidosMenores = new int[8];
         
         for (int i = 0; i < pedidos.length; i++) {
@@ -51,6 +62,10 @@ public class Informe {
     }
     
     public static int [] obtenerMayorPedidoCafeteria(int [][] pedidos){
+        /* 
+        Aqui se lo que hace esta funcion es la de obtener el numero mayor de 
+        pedidos que hay en todo el arreglo.
+        */
         int [] pedidosMayores = new int[8];
         
         for (int i = 0; i < pedidos.length; i++) {

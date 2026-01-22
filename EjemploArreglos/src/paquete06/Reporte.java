@@ -13,6 +13,10 @@ public class Reporte {
     public static void imprimirReporte(String [] cafeterias, String [] sedes, 
             double [] promediosCaf, int [] pedidosMenor, int [] pedidosMayor, 
             int pedidosDia, String caferiaMasPedidos){
+        /*
+         Aqui lo que se realiza es ya el reporte lo que se le va a mostrar al 
+        usuario con todos los datos solicitados del problema.
+        */
         String mensaje = "Listado de Cafeterías\n";
         
         for (int i = 0; i < cafeterias.length; i++) {

@@ -23,7 +23,9 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        /* Aqui se declaran las variables de tipo cadena y enteros, ademas se 
+        invoncan las diferentes funciones
+        */
         String [] misCafeterias = Establecimiento.obtenerCafeterias();
         int [][] misPedidos = Pedido.obtenerPedidos();
         String [] misSedes = Ubicacion.obtenerUbicaciones();

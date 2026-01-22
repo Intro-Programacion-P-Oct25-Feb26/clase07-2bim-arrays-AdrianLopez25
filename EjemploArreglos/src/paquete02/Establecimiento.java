@@ -11,7 +11,9 @@ package paquete02;
 public class Establecimiento {
     
     public static String [] obtenerCafeterias(){
-        
+     /* Aqui se declara un arreglo de tipo cadena en el cual se le da valores a
+        la variable cafeteria en donde se le dan todo los valores de tipo cadena
+        */   
         String [] cafeterias = {
             "Café Andino", "Café Pacífico", "Café Sierra", "Café Amazónico", 
             "Café Central", "Café Jardín", "Café Tec", "Café Rectorado"

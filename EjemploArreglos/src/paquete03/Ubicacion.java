@@ -11,6 +11,10 @@ package paquete03;
 public class Ubicacion {
     
     public static String [] obtenerUbicaciones(){
+        /* En esta funcion se declara un arreglo unidimensional de tipo cadena,
+        en el cual tambien se le dan todo los valores y asi mismo retorna la 
+        varible sedes que es el arreglo unidimensional.
+        */
         String [] sedes = {"Bloque A - Biblioteca", "Bloque B - Laboratorios", 
             "Bloque C - Aulas", "Bloque D - Administración", 
             "Bloque E - Deportes", "Bloque F - Residencias", 
